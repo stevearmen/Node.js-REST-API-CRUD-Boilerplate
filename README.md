@@ -1,14 +1,13 @@
 # Node.js-CRUD-API-Boilerplate
 A basic CRUD REST API to get you started
 
-### Installing
+## Installing
 
 ```
 cd to folder
 npm install express mongoose
 start server (node app.js or pm2 start app.js --name testapi)
 ```
-
 
 ## Testing
 
@@ -33,6 +32,10 @@ curl -X PUT -H "Authorization: Basic your_encrypted_key_here" -H "Content-Type: 
 curl -X DELETE -H "Authorization: Basic your_encrypted_key_here" http://127.0.0.1:8083/product/PROD-1
 ```
 
+### Deployment
+For production use:
+1. issue encrypted keys (could contain user's ID)
+2. Decrypt key, match with user's ID or any other selected key
 
 ## Built With
 
