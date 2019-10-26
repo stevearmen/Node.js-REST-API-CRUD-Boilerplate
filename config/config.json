@@ -1,0 +1,21 @@
+{
+    "dev": {
+        "port": 8083,
+        "db": {
+            "host": "127.0.0.1",
+            "usr": "crud_db",
+            "pwd": "123",
+            "collection": "crud_db"
+        }
+
+    },
+    "prod": {
+        "port": 8081,
+        "db": {
+            "host": "",
+            "usr": "",
+            "pwd": "",
+            "collection": ""
+        }
+    }
+}
